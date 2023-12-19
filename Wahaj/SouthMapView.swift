@@ -1,45 +1,47 @@
 //
-//  MapView.swift
+//  SouthMapView.swift
 //  Wahaj
 //
-//  Created by Hasna Ahmed on 05/06/1445 AH.
+//  Created by amjaad on 06/06/1445 AH.
 //
 
 import SwiftUI
 
-struct MapView: View {
+struct SouthMapView: View {
     var body: some View {
       
         ZStack{
+            
+            
              Image("background")
            .resizable()
            .frame(width:400 ,height:900)
             
             
-            Image("little-bear")
+            Image("crow")
                 .resizable()
-                .frame(width:130 ,height:156)
+                .frame(width:156 ,height:156)
                 .offset(x:-100, y:-250)
             
-            Image("queen-cassiopeia")
+            Image("Gemini")
                 .resizable()
-                .frame(width:130 ,height:156)
-                .offset(x:100, y:-90)
+                .frame(width:156 ,height:156)
+                .offset(x:100, y:-100)
             
-            Image("camelopardus")
+            Image("taurus")
                 .resizable()
-                .frame(width:130 ,height:156)
-                .offset(x:100, y:150)
+                .frame(width:156 ,height:156)
+                .offset(x:100, y:190)
             
             
-            Image("harp")
+            Image("triangulum-australe")
                 .resizable()
-                .frame(width:130 ,height:156)
-                .offset(x:-100, y:-0)
+                .frame(width:156 ,height:156)
+                .offset(x:-100, y:30)
             
-            Image("canis-major")
+            Image("aries")
                 .resizable()
-                .frame(width:130 ,height:156)
+                .frame(width:156,height:156)
                 .offset(x:-100, y:280)
             
             
@@ -59,5 +61,5 @@ struct MapView: View {
 }
 
 #Preview {
-    MapView()
+    SouthMapView()
 }
