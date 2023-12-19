@@ -1,18 +1,18 @@
 //
-//  MapView.swift
+//  NorthMapView.swift
 //  Wahaj
 //
-//  Created by Hasna Ahmed on 05/06/1445 AH.
+//  Created by amjaad on 06/06/1445 AH.
 //
 
 import SwiftUI
 
-struct MapView: View {
+struct NorthMapView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    MapView()
+    NorthMapView()
 }
