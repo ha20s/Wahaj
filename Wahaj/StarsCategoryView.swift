@@ -23,7 +23,7 @@ struct StarsCategoryView: View {
                     .overlay(
                         
                         VStack(spacing:100){
-                            NavigationLink(destination: MapView()) {
+                            NavigationLink(destination: NorthMapView()) {
                                 HStack {
                                     Text(nourthStarts)
                                         .accessibilityLabel(nourthStarts)
@@ -34,7 +34,7 @@ struct StarsCategoryView: View {
                                     .cornerRadius(30)
                             }
                             
-                            NavigationLink(destination: MapView()) {
+                            NavigationLink(destination: SouthMapView()) {
                                 HStack {
                                     Text(southStarts)
                                         .accessibilityLabel(southStarts)
