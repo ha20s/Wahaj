@@ -8,11 +8,48 @@
 import SwiftUI
 
 struct StarsCategoryView: View {
+    
+    @State var southStarts : LocalizedStringKey = "SouthStars"
+    @State var nourthStarts : LocalizedStringKey = "NourthStars"
+    
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack {
+            Image("background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(.all)
+                    .overlay(
+                        
+                        VStack(spacing:100){
+                            NavigationLink(destination: MapView()) {
+                                HStack {
+                                    Text(nourthStarts)
+                                        .font(.title)
+                                        .foregroundColor(Color("OurYellow"))
+                                }.frame(width: 280, height: 170)
+                                    .background(Color("buttonsBackground").opacity(0.1))
+                                    .cornerRadius(30)
+                            }
+                            
+                            NavigationLink(destination: MapView()) {
+                                HStack {
+                                    Text(southStarts)
+                                        .font(.title)
+                                        .foregroundColor(Color("OurYellow"))
+                                }.frame(width: 280, height: 170)
+                                    .background(Color("buttonsBackground").opacity(0.1))
+                                    .cornerRadius(30)
+                    }
+                }
+            )
+                            
+        }
     }
 }
 
 #Preview {
     StarsCategoryView()
+        
 }
