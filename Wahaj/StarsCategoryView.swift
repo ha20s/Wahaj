@@ -26,6 +26,7 @@ struct StarsCategoryView: View {
                             NavigationLink(destination: MapView()) {
                                 HStack {
                                     Text(nourthStarts)
+                                        .accessibilityLabel(nourthStarts)
                                         .font(.title)
                                         .foregroundColor(Color("OurYellow"))
                                 }.frame(width: 280, height: 170)
@@ -36,6 +37,7 @@ struct StarsCategoryView: View {
                             NavigationLink(destination: MapView()) {
                                 HStack {
                                     Text(southStarts)
+                                        .accessibilityLabel(southStarts)
                                         .font(.title)
                                         .foregroundColor(Color("OurYellow"))
                                 }.frame(width: 280, height: 170)

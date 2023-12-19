@@ -31,6 +31,7 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .multilineTextAlignment(.center)
                                 .font(.title)
+                                .accessibilityLabel(introductionStatement)
                             
                             //backnutton changr color 
                             
@@ -40,6 +41,7 @@ struct ContentView: View {
                                            //, isActive: $isStartJourneyActive
                             ) {
                                 Text(navigationIntoCategories)
+                                    .accessibilityLabel(navigationIntoCategories)
                                     .foregroundColor(Color("OurYellow"))
                                     .frame(width: 200, height: 50)
                                     .background(Color("buttonsBackground").opacity(0.1))
