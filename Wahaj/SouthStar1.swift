@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SouthStar1: View {
-    @State var  SouthStar1: LocalizedStringKey = "SouthStar1"
+    @State var  SouthStar1: LocalizedStringKey = "SouthStar1name"
     @State var SouthStarText1 : LocalizedStringKey = "SouthStarText1"
     @State var NorthImage1 : LocalizedStringKey = "NorthImage1"
     var body: some View {
@@ -38,8 +38,9 @@ struct SouthStar1: View {
                          .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                          .foregroundColor(.white)
                          .multilineTextAlignment(.center)
-                         .frame(width: 350, height: 170,
+                         .frame(width: 320, height: 170,
                                 alignment: .center)
+                         .padding()
                          .background(Color("buttonsBackground").opacity(0.2))
                          .cornerRadius(30)
                          .accessibilityHint(SouthStarText1)

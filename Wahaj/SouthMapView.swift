@@ -14,62 +14,74 @@ struct SouthMapView: View {
     @State var SouthButton4 : LocalizedStringKey = "SouthButton4"
     @State var SouthButton5 : LocalizedStringKey = "SouthButton5"
 
-    var body: some View {
-      
-        ZStack{
-            Image("background")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.all)
-                .overlay(
-                    Group {
-                        
-                        
-                        Image("crow")
-                            .resizable()
-                            .frame(width:156 ,height:156)
-                            .offset(x:-100, y:-250)
-                            .accessibilityHint(SouthButton1)
+    
+        var body: some View {
+            ZStack {
+                Image("background")
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .edgesIgnoringSafeArea(.all)
+                    .overlay(
+                        HStack(spacing:40){
+                            VStack(spacing:100){
+                                
+                                NavigationLink(destination: SouthStar1()) {
+                                    Image("taurus")
+                                        .resizable()
+                                        .frame(width: 156, height: 156)
+                                        .accessibilityHint(SouthButton1)
+                                    
+                                }.padding(.vertical,40)
+                                
+                                NavigationLink(destination: SouthStar2()) {
+                                    Image("crow")
+                                        .resizable()
+                                        .frame(width: 156, height: 156)
 
-                        
-                        Image("Gemini")
-                            .resizable()
-                            .frame(width:156 ,height:156)
-                            .offset(x:100, y:-100)
-                            .accessibilityHint(SouthButton2)
+                                        .accessibilityHint(SouthButton2)
+                                    
+                                }
+                                
+                                NavigationLink(destination: SouthStar3()) {
+                                    Image("aries")
+                                        .resizable()
+                                        .frame(width: 156, height: 156)
 
-                        
-                        Image("taurus")
-                            .resizable()
-                            .frame(width:156 ,height:156)
-                            .offset(x:100, y:190)
-                            .accessibilityHint(SouthButton3)
+                                        .accessibilityHint(SouthButton3)
+                                    
+                                }//.padding()
 
-                        
-                        Image("triangulum-australe")
-                            .resizable()
-                            .frame(width:156 ,height:156)
-                            .offset(x:-100, y:30)
-                            .accessibilityHint(SouthButton4)
 
-                        
-                        Image("aries")
-                            .resizable()
-                            .frame(width:156,height:156)
-                            .offset(x:-100, y:280)
-                            .accessibilityHint(SouthButton5)
-                        
-                        
-                        
-                        
-                        
-                        
-                    }
-            )               
-           
+
+                            }
+                            
+                            VStack(spacing: 130){
+                                
+                               
+                                NavigationLink(destination: SouthStar4()) {
+                                    Image("Gemini")
+                                        .resizable()
+                                        .frame(width: 156, height: 156)
+                                    
+                                        .accessibilityHint(SouthButton4)
+                                }
+                                .padding(.vertical,40)
+                                NavigationLink(destination: SouthStar5()) {
+                                    Image("triangulum-australe")
+                                        .resizable()
+                                        .frame(width: 156, height: 156)
+                                    
+                                        .accessibilityHint(SouthButton5)
+                                    
+                                }
+
+                            }
+                        }
+                    )
+            }
          }
     }
-}
+
 
 #Preview {
     SouthMapView()

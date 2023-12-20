@@ -12,11 +12,11 @@ beaches of the world combined";
 "SouthStars" = "South Stars" ;
 "NourthStars" = "Nourth Stars";
 
-"NorthStar1" = "Queen-Cassiopeia";
-"NorthStar2" = "Aquarius";
-"NorthStar3" = "Cancer";
-"NorthStar4" = "Harp";
-"NorthStar5" = "Canis-Major";
+"NorthStar1name" = "Queen-Cassiopeia";
+"NorthStar2name" = "Aquarius";
+"NorthStar3name" = "Cancer";
+"NorthStar4name" = "Harp";
+"NorthStar5name" = "Canis-Major";
 
 "NorthStarText1" = "prominent Northern Hemisphere constellation, visible year-round, features key stars like the camel's back and knee. Named for its resemblance to
  a woman sitting on a chair";
@@ -28,11 +28,11 @@ resembling water waves or a figure pouring from a bucket";
 "NorthStarText5" = "Southern constellation with bright stars, below the celestial equator in the northern hemisphere. Includes Orion's belt stars directing towards Sirius";
 
 
-"SouthStar1" = "Taurus";
-"SouthStar2" = "Crow";
-"SouthStar3" = "Aries";
-"SouthStar4" = "Gemini";
-"SouthStar5" = "Triangulum-Australe  ";
+"SouthStar1name" = "Taurus";
+"SouthStar2name" = "Crow";
+"SouthStar3name" = "Aries";
+"SouthStar4name" = "Gemini";
+"SouthStar5name" = "Triangulum-Australe  ";
 
 
 "SouthStarText1" = "Southern constellation with Aldebaran as one of its brightest stars, named for its bull-like shape.";
