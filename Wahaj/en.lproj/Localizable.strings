@@ -10,5 +10,65 @@ beaches of the world combined";
 "navigationIntoCategories" = "Start Your Journey" ;
 
 "SouthStars" = "South Stars" ;
-
 "NourthStars" = "Nourth Stars";
+
+"NorthStar1" = "Queen-Cassiopeia";
+"NorthStar2" = "Aquarius";
+"NorthStar3" = "Cancer";
+"NorthStar4" = "Harp";
+"NorthStar5" = "Canis-Major";
+
+"NorthStarText1" = "prominent Northern Hemisphere constellation, visible year-round, features key stars like the camel's back and knee. Named for its resemblance to
+ a woman sitting on a chair";
+"NorthStarText2" = "Northern zodiac constellation near Capricorn, 
+resembling water waves or a figure pouring from a bucket";
+"NorthStarText3" = "Medium-sized northern constellation with faint stars,
+ housing two known stars, notably Cancer 55";
+"NorthStarText4" = "Small northern constellation, ranked 52nd in size, featuring the eagle as its fifth brightest star";
+"NorthStarText5" = "Southern constellation with bright stars, below the celestial equator in the northern hemisphere. Includes Orion's belt stars directing towards Sirius";
+
+
+"SouthStar1" = "Taurus";
+"SouthStar2" = "Crow";
+"SouthStar3" = "Aries";
+"SouthStar4" = "Gemini";
+"SouthStar5" = "Triangulum-Australe  ";
+
+
+"SouthStarText1" = "Southern constellation with Aldebaran as one of its brightest stars, named for its bull-like shape.";
+"SouthStarText2" = "Southern constellation resembling a crow, housing bright stars like Gamma, Delta, Epsilon, and Beta Corvi, forming a distinct quadrilateral.";
+"SouthStarText3" = "Southern constellation with a triangular pattern of bright stars, including Alfa Hamam, Al-Sharatan, and Hamam 41, forming a ram's head shape.";
+"SouthStarText4" = "Tenth brightest star in the southern night sky, second brightest in Orion. Arab likened it to a woman with a bow aiming at the eastern liont.";
+"SouthStarText5" = "Southern constellation, deemed weak, comprises three stars with Aries as one, including a bright star.";
+
+
+
+
+"NorthImage1" = "Queen-Cassiopeia Image";
+"NorthImage2" = "Aquarius Image";
+"NorthImage3" = "Cancer Image";
+"NorthImage4" = "Harp Image";
+"NorthImage5" = "Canis-Major Image";
+
+
+"SouthImage1" = "Taurus";
+"SouthImage2" = "Crow";
+"SouthImage3" = "Aries";
+"SouthImage4" = "Gemini";
+"SouthImage5" = "Triangulum-Australe";
+
+
+
+
+"NorthButton1" = "Queen-Cassiopeia";
+"NorthButton2" = "Aquarius";
+"NorthButton3" = "Cancer";
+"NorthButton4" = "Harp";
+"NorthButton5" = "Canis-Major";
+
+
+"SouthButton1" = "Taurus";
+"SouthButton2" = "Crow";
+"SouthButton3" = "Aries";
+"SouthButton4" = "Gemini";
+"SouthButton5" = "Triangulum-Australe";
