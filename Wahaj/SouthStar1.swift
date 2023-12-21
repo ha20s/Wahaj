@@ -52,4 +52,5 @@ struct SouthStar1: View {
 
 #Preview {
     SouthStar1()
+    
 }

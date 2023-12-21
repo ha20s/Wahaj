@@ -24,6 +24,7 @@
 		4B15DC5E2B32ABA80098ECA0 /* SouthStar3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15DC5D2B32ABA80098ECA0 /* SouthStar3.swift */; };
 		4B15DC602B32ABB60098ECA0 /* SouthStar4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15DC5F2B32ABB60098ECA0 /* SouthStar4.swift */; };
 		4B15DC622B32ABC20098ECA0 /* SouthStar5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15DC612B32ABC20098ECA0 /* SouthStar5.swift */; };
+		4B33BAC72B342DF000B4550A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B33BAC62B342DF000B4550A /* SplashScreen.swift */; };
 		A38B416F2B31A2180044E418 /* NorthMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38B416E2B31A2180044E418 /* NorthMapView.swift */; };
 		A38B41712B31A2400044E418 /* SouthMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38B41702B31A2400044E418 /* SouthMapView.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		4B15DC5D2B32ABA80098ECA0 /* SouthStar3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStar3.swift; sourceTree = "<group>"; };
 		4B15DC5F2B32ABB60098ECA0 /* SouthStar4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStar4.swift; sourceTree = "<group>"; };
 		4B15DC612B32ABC20098ECA0 /* SouthStar5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthStar5.swift; sourceTree = "<group>"; };
+		4B33BAC62B342DF000B4550A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		A38B416E2B31A2180044E418 /* NorthMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthMapView.swift; sourceTree = "<group>"; };
 		A38B41702B31A2400044E418 /* SouthMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthMapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +90,7 @@
 				0C58468A2B3033D8005B6C05 /* StarsCategoryView.swift */,
 				A38B416E2B31A2180044E418 /* NorthMapView.swift */,
 				A38B41702B31A2400044E418 /* SouthMapView.swift */,
+				4B33BAC62B342DF000B4550A /* SplashScreen.swift */,
 				4B15DC4F2B32AB3F0098ECA0 /* NorthStar1.swift */,
 				4B15DC512B32AB570098ECA0 /* NorthStar2.swift */,
 				4B15DC532B32AB630098ECA0 /* NirthStar3.swift */,
@@ -194,6 +197,7 @@
 				4B15DC602B32ABB60098ECA0 /* SouthStar4.swift in Sources */,
 				4B15DC522B32AB570098ECA0 /* NorthStar2.swift in Sources */,
 				A38B416F2B31A2180044E418 /* NorthMapView.swift in Sources */,
+				4B33BAC72B342DF000B4550A /* SplashScreen.swift in Sources */,
 				4B15DC5A2B32AB8B0098ECA0 /* SouthStar1.swift in Sources */,
 				4B15DC5C2B32AB9C0098ECA0 /* SouthStar2.swift in Sources */,
 				4B15DC542B32AB630098ECA0 /* NirthStar3.swift in Sources */,

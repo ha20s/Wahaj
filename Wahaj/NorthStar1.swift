@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NorthStar1: View {
-    @State var NorthStar1 : LocalizedStringKey = "NorthStar1"
+    @State var NorthStar1 : LocalizedStringKey = "NorthStar1name"
     @State var NorthStarText1 : LocalizedStringKey = "NorthStarText1"
     @State var NorthImage1 : LocalizedStringKey = "NorthImage1"
     var body: some View {
@@ -36,7 +36,7 @@ struct NorthStar1: View {
                          .font(.title2)
                          .foregroundColor(.white)
                          .multilineTextAlignment(.center)
-                         .frame(width: 350, height: 350,
+                         .frame(width: 350, height: 320,
                                 alignment: .center)
                          .background(Color("buttonsBackground").opacity(0.2))
                          .cornerRadius(30)
@@ -51,4 +51,6 @@ struct NorthStar1: View {
 
 #Preview {
     NorthStar1()
+    
+    
 }

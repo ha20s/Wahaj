@@ -50,5 +50,5 @@ struct NirthStar3: View {
 
 #Preview {
     NirthStar3()
-        .environment(\.locale,Locale.init(identifier: "ar"))
+       
 }

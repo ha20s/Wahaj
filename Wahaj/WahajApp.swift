@@ -11,7 +11,8 @@ import SwiftUI
 struct WahajApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreen()
+            
         }
     }
 }

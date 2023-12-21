@@ -36,7 +36,7 @@ struct SouthStar4: View {
                          .font(/*@START_MENU_TOKEN@*/.title2/*@END_MENU_TOKEN@*/)
                          .foregroundColor(.white)
                          .multilineTextAlignment(.center)
-                         .frame(width: 320, height: 170,
+                         .frame(width: 320, height: 180,
                                 alignment: .center)
                          .padding()
                          .background(Color("buttonsBackground").opacity(0.2))
@@ -51,4 +51,5 @@ struct SouthStar4: View {
 
 #Preview {
     SouthStar4()
+      
 }

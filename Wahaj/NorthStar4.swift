@@ -50,4 +50,5 @@ struct NorthStar4: View {
 
 #Preview {
     NorthStar4()
+    
 }
